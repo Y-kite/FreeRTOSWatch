@@ -1,0 +1,28 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'FreeRTOSWatch'
+compiling u8g2_fonts.c...
+linking...
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f103xb.o(HEAP).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.bss).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.bss).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_timebase_tim.o(.bss).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching tasks.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching timers.o(.bss).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching u8x8_byte.o(.bss).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching heap_4.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching timers.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching freertos_watch.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching u8x8_cad.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching port.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching u8x8_byte.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching key.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.data).
+STM32ProjectTemplate\STM32ProjectTemplate.axf: Error: L6407E: Sections of aggregate size 0x47c bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 18 error messages.
+"STM32ProjectTemplate\STM32ProjectTemplate.axf" - 18 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:04

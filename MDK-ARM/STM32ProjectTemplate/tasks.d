@@ -1,0 +1,16 @@
+stm32projecttemplate\tasks.o: ..\Middle\FreeRTOS\source\tasks.c
+stm32projecttemplate\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32projecttemplate\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/FreeRTOS.h
+stm32projecttemplate\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32projecttemplate\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32projecttemplate\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/projdefs.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/portable.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/deprecated_definitions.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/mpu_wrappers.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/task.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/list.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/timers.h
+stm32projecttemplate\tasks.o: ../Middle/FreeRTOS/include/stack_macros.h

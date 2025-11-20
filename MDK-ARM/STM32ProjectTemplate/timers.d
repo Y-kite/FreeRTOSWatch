@@ -1,0 +1,15 @@
+stm32projecttemplate\timers.o: ..\Middle\FreeRTOS\source\timers.c
+stm32projecttemplate\timers.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/FreeRTOS.h
+stm32projecttemplate\timers.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32projecttemplate\timers.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32projecttemplate\timers.o: ../Core/Inc/FreeRTOSConfig.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/projdefs.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/portable.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/deprecated_definitions.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/portable/RVDS/ARM_CM3/portmacro.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/mpu_wrappers.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/task.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/list.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/queue.h
+stm32projecttemplate\timers.o: ../Middle/FreeRTOS/include/timers.h

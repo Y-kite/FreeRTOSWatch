@@ -22,11 +22,10 @@
 |OLED显示屏|PB6、PB7(使用硬件I2C)|
 
 **硬件接线图:**
-!
+![硬件接线图](https://raw.githubusercontent.com/Y-kite/FreeRTOSWatch/refs/heads/main/image/%E7%A1%AC%E4%BB%B6%E6%8E%A5%E7%BA%BF%E5%9B%BE.jfif)
 
-
-
-
+## 3.软件设计
+**FreeRTOS任务流程图:**
 ```mermaid
 flowchart TD
   A([时间显示任务
@@ -47,3 +46,6 @@ flowchart TD
   I(闹钟任务
   <优先级较其它任务高>)
 ```
+---
+说明：除闹钟任务外所有任务优先级设为一样(我设的18)，闹钟任务优先级高一点(我设的23)
+**

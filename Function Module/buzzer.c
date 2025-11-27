@@ -57,7 +57,7 @@ void Music_Update(void)
 		}
 		
 		Buzzer_PlayNote((*current_melody)[current_note][0]);
-		note_start_time = adjusted_time;
+		note_start_time = adjusted_time + 5;
 	}
 }
 

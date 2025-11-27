@@ -1186,16 +1186,6 @@
               <FilePath>..\Function Module\game.h</FilePath>
             </File>
             <File>
-              <FileName>buzzer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Function Module\buzzer.c</FilePath>
-            </File>
-            <File>
-              <FileName>buzzer.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\Function Module\buzzer.h</FilePath>
-            </File>
-            <File>
               <FileName>beep.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Function Module\beep.c</FilePath>
@@ -1204,6 +1194,16 @@
               <FileName>beep.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Function Module\beep.h</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Function Module\buzzer.c</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Function Module\buzzer.h</FilePath>
             </File>
             <File>
               <FileName>DHT11.c</FileName>

@@ -3,7 +3,7 @@
 <title>Static Call Graph - [STM32ProjectTemplate\FreeRTOSWatch.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image STM32ProjectTemplate\FreeRTOSWatch.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu Nov 13 23:19:00 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu Nov 27 20:06:03 2025
 <BR><P>
 <H3>Maximum Stack Usage =        444 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1337,13 +1337,13 @@ Global Symbols
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Music_Update
 </UL>
 
-<P><STRONG><a name="[ee]"></a>Music_Update</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, buzzer.o(i.Music_Update))
+<P><STRONG><a name="[ee]"></a>Music_Update</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, buzzer.o(i.Music_Update))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Music_Update &rArr; HAL_Delay
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Buzzer_PlayNote
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Music_Stop
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Buzzer_PlayNote
 </UL>
 <BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MusicTask
 </UL>
@@ -1557,8 +1557,8 @@ Global Symbols
 <P><STRONG><a name="[e9]"></a>u8g2_DrawCircle</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, u8g2_circle.o(i.u8g2_DrawCircle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 212<LI>Call Chain = u8g2_DrawCircle &rArr; u8g2_draw_circle &rArr; u8g2_draw_circle_section &rArr; u8g2_DrawPixel &rArr; u8g2_DrawHVLine &rArr; u8g2_clip_intersection2
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_draw_circle
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_draw_circle
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MenuTask
 </UL>
@@ -1566,8 +1566,8 @@ Global Symbols
 <P><STRONG><a name="[97]"></a>u8g2_DrawDisc</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, u8g2_circle.o(i.u8g2_DrawDisc))
 <BR><BR>[Stack]<UL><LI>Max Depth = 220<LI>Call Chain = u8g2_DrawDisc &rArr; u8g2_draw_disc &rArr; u8g2_draw_disc_section &rArr; u8g2_DrawVLine &rArr; u8g2_DrawHVLine &rArr; u8g2_clip_intersection2
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_draw_disc
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_draw_disc
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
 </UL>
 <BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DrawMenuBuffer
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawRBox
@@ -1607,10 +1607,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawVLine
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawHLine
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawFrame
+<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_len
 <LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawHXBMP
 <LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawPixel
 <LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawBox
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_len
 </UL>
 
 <P><STRONG><a name="[122]"></a>u8g2_DrawHXBMP</STRONG> (Thumb, 172 bytes, Stack size 56 bytes, u8g2_bitmap.o(i.u8g2_DrawHXBMP))
@@ -1728,10 +1728,10 @@ Global Symbols
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawCircle
 <LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawXBMP
 <LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawRBox
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_apply_clip_window
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_glyph
 <LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawHXBMP
 <LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawBox
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_glyph
-<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_apply_clip_window
 </UL>
 
 <P><STRONG><a name="[117]"></a>u8g2_NextPage</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, u8g2_buffer.o(i.u8g2_NextPage))
@@ -1799,8 +1799,8 @@ Global Symbols
 <P><STRONG><a name="[12d]"></a>u8g2_SetupBuffer</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, u8g2_setup.o(i.u8g2_SetupBuffer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = u8g2_SetupBuffer
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_SetFontPosBaseline
-<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_SetMaxClipWindow
+<BR>[Calls]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_SetMaxClipWindow
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_SetFontPosBaseline
 </UL>
 <BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_Setup_ssd1306_i2c_128x64_noname_f
 </UL>
@@ -1866,13 +1866,13 @@ Global Symbols
 <P><STRONG><a name="[120]"></a>u8g2_font_decode_glyph</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, u8g2_font.o(i.u8g2_font_decode_glyph))
 <BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = u8g2_font_decode_glyph &rArr; u8g2_font_decode_len &rArr; u8g2_DrawHVLine &rArr; u8g2_clip_intersection2
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_len
+<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_len
 <LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_get_unsigned_bits
 <LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_get_signed_bits
 <LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_add_vector_y
 <LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_add_vector_x
 <LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_setup_decode
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_IsIntersection
 </UL>
 <BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawGlyph
 </UL>
@@ -1880,9 +1880,9 @@ Global Symbols
 <P><STRONG><a name="[13c]"></a>u8g2_font_decode_len</STRONG> (Thumb, 140 bytes, Stack size 64 bytes, u8g2_font.o(i.u8g2_font_decode_len))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = u8g2_font_decode_len &rArr; u8g2_DrawHVLine &rArr; u8g2_clip_intersection2
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawHVLine
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_add_vector_y
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_add_vector_y
 <LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_add_vector_x
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_DrawHVLine
 </UL>
 <BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8g2_font_decode_glyph
 </UL>
@@ -1987,22 +1987,22 @@ Global Symbols
 <P><STRONG><a name="[145]"></a>u8x8_byte_EndTransfer</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, u8x8_byte.o(i.u8x8_byte_EndTransfer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = u8x8_byte_EndTransfer
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
 </UL>
 
 <P><STRONG><a name="[147]"></a>u8x8_byte_SendByte</STRONG> (Thumb, 14 bytes, Stack size 16 bytes, u8x8_byte.o(i.u8x8_byte_SendByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = u8x8_byte_SendByte
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
 </UL>
 
 <P><STRONG><a name="[146]"></a>u8x8_byte_StartTransfer</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, u8x8_byte.o(i.u8x8_byte_StartTransfer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = u8x8_byte_StartTransfer
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_i2c_data_transfer
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_ssd13xx_fast_i2c
 </UL>
 
 <P><STRONG><a name="[4d]"></a>u8x8_byte_hw_i2c</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, u8x8_byte.o(i.u8x8_byte_hw_i2c))
@@ -2033,8 +2033,8 @@ Global Symbols
 <P><STRONG><a name="[143]"></a>u8x8_cad_SendData</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, u8x8_cad.o(i.u8x8_cad_SendData))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = u8x8_cad_SendData
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_ssd1306_sh1106_generic
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
+<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_ssd1306_sh1106_generic
 </UL>
 
 <P><STRONG><a name="[142]"></a>u8x8_cad_SendSequence</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, u8x8_cad.o(i.u8x8_cad_SendSequence))
@@ -2078,10 +2078,10 @@ Global Symbols
 <P><STRONG><a name="[50]"></a>u8x8_d_ssd1306_128x64_noname</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, u8x8_d_ssd1306_128x64_noname.o(i.u8x8_d_ssd1306_128x64_noname))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = u8x8_d_ssd1306_128x64_noname &rArr; u8x8_d_ssd1306_sh1106_generic &rArr; u8x8_cad_SendSequence &rArr; u8x8_cad_SendData
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_helper_display_setup_memory
+<BR>[Calls]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_helper_display_setup_memory
 <LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_helper_display_init
 <LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_ssd1306_sh1106_generic
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> u8g2_d_setup.o(i.u8g2_Setup_ssd1306_i2c_128x64_noname_f)
 </UL>
@@ -2091,8 +2091,8 @@ Global Symbols
 <P><STRONG><a name="[144]"></a>u8x8_gpio_call</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, u8x8_gpio.o(i.u8x8_gpio_call))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = u8x8_gpio_call
 </UL>
-<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_helper_display_init
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
+<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_cad_SendSequence
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u8x8_d_helper_display_init
 </UL>
 
 <P><STRONG><a name="[136]"></a>u8x8_utf8_init</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, u8x8_8x8.o(i.u8x8_utf8_init))

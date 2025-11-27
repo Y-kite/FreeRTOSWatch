@@ -76,7 +76,7 @@ void GameTask(void *pvParameters)
 		{
 			if(GameEndFlag == 0)
 			{
-				if(chessflag[x][y] == 0)
+				if(chessflag[x][y] == 0)   /*棋盘该位置没有棋子再下棋*/
 				{
 					chessflag[x][y] = 2;
 					if(ResultJodge(chessflag))

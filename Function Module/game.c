@@ -30,7 +30,6 @@ void ComputerPlay(uint8_t Board[3][3])
 			}
 		}
 	}
-
 }
 
 /**

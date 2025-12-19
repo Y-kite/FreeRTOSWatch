@@ -1,4 +1,4 @@
-# 基于STM32F103C8T6和FreeRTOS的智能手表系统设计
+# 基于STM32F103C8T6和FreeRTOS的多功能手表系统设计
 ## 1.项目概览
 **项目演示:** https://b23.tv/vQvcexc
 
